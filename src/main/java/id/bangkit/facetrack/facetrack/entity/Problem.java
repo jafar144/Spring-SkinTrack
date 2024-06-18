@@ -25,8 +25,10 @@ public class Problem {
     @Column(name = "nama_problem")
     private String nama;
 
+    @Column(columnDefinition = "TEXT")
     private String deskripsi;
 
+    @Column(columnDefinition = "TEXT")
     private String saran;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "problem", cascade = CascadeType.ALL)

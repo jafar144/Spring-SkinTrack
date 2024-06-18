@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>id.bangkit.facetrack</groupId>
-	<artifactId>facetrack</artifactId>
+	<artifactId>skintrack</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>facetrack</name>
+	<name>skintrack</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
@@ -110,18 +110,13 @@
 						<image>eclipse-temurin:21-jdk-ubi9-minimal</image>
 					</from>
 					<to>
-<!--						<image>gcr.io/exploringgcp-426503/${project.artifactId}:${project.version}</image>-->
-						<image>registry.hub.docker.com/fallinnadim/${project.artifactId}:${project.version}</image>
+						<image>gcr.io/lateral-boulder-423202-n3/${project.artifactId}:${project.version}</image>
 					</to>
 					<container>
 						<jvmFlags>
 							<jvmFlag>-Duser.timezone=Asia/Jakarta</jvmFlag>
 						</jvmFlags>
 						<environment>
-<!--							<DB_URL>${env.DB_URL}</DB_URL>-->
-<!--							<MAIL_HOST>${env.MAIL_HOST}</MAIL_HOST>-->
-<!--							<MAIL_USERNAME>${env.MAIL_USERNAME}</MAIL_USERNAME>-->
-<!--							<MAIL_PASSWORD>${env.MAIL_PASSWORD}</MAIL_PASSWORD>-->
 						</environment>
 					</container>
 				</configuration>

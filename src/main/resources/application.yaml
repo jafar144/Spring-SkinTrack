@@ -1,10 +1,10 @@
 spring:
   application:
-    name: facetrack
+    name: SkinTrack
   datasource:
-    url: jdbc:postgresql://postgres:5432/facetrack
-    username: jafar
-    password: jafar456*-
+    url: jdbc:postgresql://35.240.139.1:5432/skintrack
+    username: postgres
+    password: terserah
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
